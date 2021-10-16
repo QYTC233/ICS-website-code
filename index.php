@@ -21,11 +21,43 @@
   integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A"
   crossorigin="anonymous"
 ></script>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/buttons.css" rel="stylesheet">
 
+
+<style>
+        html,
+		body {
+            font-family: 'Lato';
+        }
+        .container {
+            text-align: center;
+            display: block;
+            position: relative;
+            vertical-align: middle;
+        }
+        .content {
+            text-align: center;
+            display: inline-block;
+        }
+        .title {
+            font-size: 66px;
+        }
+        .title small {
+            font-size: 33px;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+    </style>
+	
+	
+	
 
 </head>
 
-<body class="mdui-appbar-with-toolbar mdui-theme-primary-teal mdui-theme-accent-pink mdui-theme-layout-light mdui-loaded">
+<body class="mdui-drawer-body-left mdui-appbar-with-toolbar mdui-theme-primary-teal mdui-theme-accent-pink mdui-theme-layout-light mdui-loaded">
 
 
 <header class="mdui-appbar mdui-appbar-fixed">
@@ -53,8 +85,12 @@
 
 
 
-<div class="mdui-drawer mdui-drawer-close" id="left-drawer">
+<div class="mdui-drawer mdui-drawer-open" id="left-drawer">
     <div class="mdui-list" mdui-collapse="{accordion: true}" style="margin-bottom: 76px;">
+		<div class="mdui-list-item mdui-ripple">
+					<i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">home</i>
+					<a href="https://www.ics.ink" class="mdui-list-item-content">Home</a>
+		</div>
         <div class="mdui-collapse-item ">
 			<div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
 			    <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">near_me</i>
@@ -73,5 +109,23 @@
 
 
 
+<div class="mdui-typo mdui-container">
+
+
+	<div class="mdui-row">
+		<div class="mdui-col-xs-12 title">
+			<h1 class="mdui-text-color-theme mdui-typo-title"><strong>ICS</strong>&nbsp;<small>Community</small></h1>
+		</div>
+	</div>
+	
+	<div class="mdui-row">
+  <div class="mdui-col-xs-6 mdui-typo-subheading">一个文化交流传播，娱乐，社交，科技社群和知识分享平台。</div>
+</div>
+	
+	
+	
+	
+	
+</div>
 
 </body>
