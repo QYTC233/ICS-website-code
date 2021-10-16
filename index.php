@@ -10,34 +10,30 @@
  <!-- <link rel="preconnect" href="//cdn.w3cbus.com"> --> 
 	<link rel="preconnect" href="//cdn.jsdelivr.net">
 	<title>ICS-Home</title>
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css"
-  integrity="sha384-cLRrMq39HOZdvE0j6yBojO4+1PrHfB7a9l5qLcmRm/fiWXYY+CndJPmyu5FV/9Tw"
-  crossorigin="anonymous"
-/>
-<script
-  src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js"
-  integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A"
-  crossorigin="anonymous"
-></script>
+<link rel="stylesheet" href="./assets/css/mdui.min.css"/>
+<script src="./assets/js/mdui.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.polyfills.min.js"></script>
+
+
+<script>
+var $ = mdui.$;
+
+</script>
 
 
 <style>
         html,
-		body {
-            font-family: 'Lato';
-        }
         .title {
             font-size: 66px;
         }
         .title small {
             font-size: 33px;
         }
-        .title a {
-            color: #000;
-            text-decoration: none;
-        }
+
+		.footer li {
+			font-size: 13pt;
+		}
+
     </style>
 	
 	
@@ -45,8 +41,7 @@
 
 </head>
 
-<body class="mdui-drawer-body-left mdui-appbar-with-toolbar mdui-theme-primary-teal mdui-theme-accent-pink mdui-theme-layout-light mdui-loaded">
-
+<body class=" mdui-appbar-with-toolbar mdui-theme-primary-light-blue mdui-color-theme-accent-pink mdui-theme-layout-light mdui-loaded mdui-theme-layout-auto">
 
 <header class="mdui-appbar mdui-appbar-fixed">
 	<div class="mdui-toolbar mdui-color-theme">
@@ -66,14 +61,13 @@
       </svg>
     </a>
 	  </div>
+
 </header>
 
 
 
 
-
-
-<div class="mdui-drawer mdui-drawer-open" id="left-drawer">
+<div class="mdui-drawer mdui-drawer-close mdui-color-light-blue-200" id="left-drawer">
     <div class="mdui-list" mdui-collapse="{accordion: true}" style="margin-bottom: 76px;">
 		<div class="mdui-list-item mdui-ripple">
 					<i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">home</i>
@@ -97,23 +91,64 @@
 
 
 
-<div class="mdui-typo mdui-container">
+<div class="mdui-typo mdui-container" align="middle">
 
 
 	<div class="mdui-row">
-		<div class="mdui-col-xs-12 title">
+		<div class="title" align="middle">
 			<h1 class="mdui-text-color-theme mdui-typo-title"><strong>ICS</strong>&nbsp;<small>Community</small></h1>
 		</div>
 	</div>
 	
-	<div class="mdui-row">
-  <div class="mdui-col-xs-6 mdui-typo-subheading">一个文化交流传播，娱乐，社交，科技社群和知识分享平台。</div>
+	<div class="mdui-row" align="middle">
+		<div>
+			<span class="mdui-typo-headline-opacity mdui-col-xs-6 mdui-col-sm-4">传承·Inherited</span>
+			<span class="mdui-typo-headline-opacity mdui-col-xs-6 mdui-col-sm-4">创造·Create</span>
+			<span class="mdui-typo-headline-opacity mdui-col-xs-6 mdui-col-sm-4">传播·Spread</span>
+		</div>
+	</div>
+	
+	<div class="mdui-row mdui-m-b-5 mdui-m-t-3">
+		<div class="mdui-col-xs-12"> 
+			<h2 class="">一个文化交流传播，娱乐，社交，科技社群和知识分享平台。</h2>
+		</div>
+	</div>
+	
 </div>
-	
-	
-	
-	
-	
+<div class="mdui-row" align="middle">
+		<div class="mdui-col-xs-12"> 
+			<div><a class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme " href="https://main.ics.ink"><i class="mdui-icon material-icons mdui-icon-left">forum</i>社区(main)</a></div>
+		
+		
+		</div>
+		
+		
+		
+	</div>
+
+
+
+
+
+<div class="mdui-divider mdui-m-t-5"></div>
+<div class="mdui-container">
+
+
+
+
+
 </div>
+<footer class="mdui-typo">
+	<ul class="mdui-list mdui-text-left">
+		<li class="mdui-list-item mdui-ripple">
+			<span>©2021 ICS Team.<span>
+		</li>
+		<li class="mdui-list-item mdui-ripple">
+			<span>Powered by<a href="https://www.moeclub.top" class="mdui-m-l-1 ">Moeclub.</a></span>
+		</li>
+	</ul>
+
+
+</footer>
 
 </body>
