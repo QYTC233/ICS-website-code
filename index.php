@@ -21,24 +21,12 @@
   integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A"
   crossorigin="anonymous"
 ></script>
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/buttons.css" rel="stylesheet">
 
 
 <style>
         html,
 		body {
             font-family: 'Lato';
-        }
-        .container {
-            text-align: center;
-            display: block;
-            position: relative;
-            vertical-align: middle;
-        }
-        .content {
-            text-align: center;
-            display: inline-block;
         }
         .title {
             font-size: 66px;
